@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Hello World!
+title: Hello World! 테스트 테스트 입니다.
 tagline: Supporting tagline
 ---
+뭐가 이렇게 어렵나...
 {% include JB/setup %}
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
@@ -12,9 +13,9 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 ## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
-    
+
     title : My Blog =)
-    
+
     author :
       name : Name Lastname
       email : blah@email.test
@@ -22,7 +23,7 @@ In `_config.yml` remember to specify your own data:
       twitter : username
 
 The theme should reference these variables whenever needed.
-    
+
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
