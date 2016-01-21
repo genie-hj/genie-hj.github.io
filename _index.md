@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Hello World! 테스트 테스트 입니다.
+title: Hello World!
 tagline: Supporting tagline
 ---
-뭐가 이렇게 어렵나...
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Readddd [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
