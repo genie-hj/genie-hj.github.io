@@ -3,7 +3,7 @@ layout: post
 title: "MARKDOWN Exercise"
 description: ""
 tags: [MARKDOWN]
-published: false
+<!-- published: false -->
 ---
 {% include JB/setup %}
 

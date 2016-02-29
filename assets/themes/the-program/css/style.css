@@ -402,9 +402,9 @@ Calculation should be done via  http://j.mp/rNg5uA
 No styleguide reference.
 */
 body {
-  font-family: consolas, 'Malgun Gothic', monaco, monospace;
+  font-family: lora, consolas, 'Malgun Gothic', monaco, monospace;
   font-size: 1.2em;
-  line-height: 1.625em;
+  line-height: 1.825em;
 }
 /*
 Font size setting
@@ -419,7 +419,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: junctionregularRegular, 'Malgun Gothic', "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+  font-family: lora, junctionregularRegular, 'Malgun Gothic', "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+  letter-spacing: -1px;
 }
 h1,
 .h1 {
@@ -477,7 +478,9 @@ strong {
   font-weight: bold;
 }
 em {
-  font-weight: bold;
+  font-weight: normal;
+  color: #a7a7a7;
+  font-size: 0.8em;
 }
 /*
 Color schemes
@@ -522,6 +525,12 @@ No styleguide reference.
   font-weight: normal !important;
   font-style: normal;
 }
+@font-face {
+  font-family: 'lora';
+  src: url('/assets/themes/the-program/font/lora-regular-webfont.woff') format('woff');
+  font-weight: normal !important;
+  font-style: normal;
+}
 /*
 LESS helper
 */
@@ -556,7 +565,7 @@ No styleguide reference.
 /* GLOBAL
 --------------------------------------------------------------------------------- */
 html {
-  color: #2d2d2d;
+  color: rgb(84, 84, 84);
 }
 #page {
   /*background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');*/
@@ -667,7 +676,7 @@ pre {
   margin-top: 0;
 }
 .unit-article a:link {
-  border-bottom: 1px dashed #c26164;
+  /*border-bottom: 1px dashed #c26164;*/
 }
 .unit-article a:visited {
   border-bottom: 1px dashed #ad4346;
@@ -734,8 +743,8 @@ pre {
 .unit-article li code {
   padding: 2px 5px;
   white-space: nowrap;
-  background-color: #5B99C2;
-  color: #fff;
+  background-color: #ededed;
+  /*color: #fff;*/
   font-weight: normal !important;
 }
 .unit-article img {
@@ -932,7 +941,7 @@ pre {
 }
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
-  padding: 26px;
+  padding: 46px;
   width: 81%;
   margin: 0 auto;
   box-sizing: border-box;
